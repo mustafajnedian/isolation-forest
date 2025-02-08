@@ -1,0 +1,15 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore model and dataset files
+#model.pkl
+*.csv
+
+# Ignore Docker and Kubernetes files (optional)
+*.log
+*.pid
+*.sock
+.env

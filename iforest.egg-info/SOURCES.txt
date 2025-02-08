@@ -1,0 +1,10 @@
+setup.py
+iforest/__init__.py
+iforest/api.py
+iforest/config.py
+iforest/model.py
+iforest.egg-info/PKG-INFO
+iforest.egg-info/SOURCES.txt
+iforest.egg-info/dependency_links.txt
+iforest.egg-info/requires.txt
+iforest.egg-info/top_level.txt
