@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from iforest.config import MODEL_PATH  # Use the same path as in model.py
 
 # Define dataset path
-DATA_PATH = "./unsw-nb15/UNSW_NB15_training-set.csv"  # Update if needed
+DATA_PATH = "~/unsw-nb15/UNSW_NB15_training-set.csv"  # Update if needed
 
 # Load the dataset
 df = pd.read_csv(DATA_PATH)

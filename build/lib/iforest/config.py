@@ -1,10 +1,10 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # Load environment variables from .env
+load_dotenv()  # Load from .env file
 
-MODEL_PATH = os.getenv("MODEL_PATH")
-LOG_LEVEL = os.getenv("LOG_LEVEL")
+#MODEL_PATH = os.getenv("MODEL_PATH", "model.pkl")  # Default to local file if env var is missing
+#MODEL_PATH = "/app/model.pkl"
+MODEL_PATH = "./iforest/model.pkl"
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 
-if not MODEL_PATH:
-    raise ValueError("MODEL_PATH is not set. Please define it in the environment variables or .env file.")
